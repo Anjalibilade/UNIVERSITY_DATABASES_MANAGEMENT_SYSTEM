@@ -1,4 +1,6 @@
 🏛️ university-database-management-system 🏛️ 
+
+
 📘 Project Description: University Database Management System This project, titled "University Database Management System", was developed using MySQL Workbench 🛢️ and is designed to manage and organize the data of a university 🎓 in a structured relational database format.
 
 The project focuses on backend database design and implementation, providing a robust structure for storing information related to:
@@ -17,31 +19,46 @@ The project focuses on backend database design and implementation, providing a r
 
 📌 Project Phases The development was carried out in four key phases, each covering essential aspects of SQL-based database management using MySQL Workbench:
 
-🔹 Phase 1: Database Design & ER Modeling
-Created 25 interrelated tables
-Defined relationships between entities such as students, professors, and departments
+🔹 Phase 1: Database Design
+
+Created 25 normalized tables
+
+Defined entities, attributes, and relationships
+
+Set primary and foreign keys
+
+🔹 Phase 2: SQL Operations
+
+Applied DDL (CREATE, ALTER, DROP)
+
+Used DML (INSERT, UPDATE, DELETE, SELECT)
+
+Implemented constraints: NOT NULL, UNIQUE, CHECK, etc.
+
+Used SQL operators and conditions (AND, OR, LIKE, etc.)
+
+🔹 Phase 3: Advanced Queries
+
+Executed JOINs (INNER, LEFT, RIGHT)
+
+Used aggregate functions: SUM, AVG, COUNT
+
+Wrote subqueries and nested SELECTs
+
+Grouped and filtered data using GROUP BY, HAVING
+
+🔹 Phase 4: Optimization & Features 
 
 
-🔹 Phase 2: SQL Operations (DDL, DML, Constraints & Operators)
-Implemented DDL commands to define tables and schemas
+Created Views for simplified data access
 
-Used DML queries to insert, update, and delete data
+Added Indexes to speed up queries
 
-Applied constraints like PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, etc.
+Used Stored Procedures for repetitive tasks
 
-Used SQL operators for logical and conditional queries (AND, OR, LIKE, etc.)
-
-
-🔹 Phase 3: Advanced Queries & Joins
-Wrote complex queries using JOINs, GROUP BY, HAVING, and nested subqueries
-
-Retrieved detailed reports and analytics for student performance, course enrollments, etc.
+Prepared for integration with application
 
 
-🔹 Phase 4: Optimization & Additional Features (Optional)
-Created views, indexes, and stored procedures to improve performance and modularity
-
-Focused on making the database more scalable and efficient
 
 
 🎯 Goals Achieved (Summary) 
